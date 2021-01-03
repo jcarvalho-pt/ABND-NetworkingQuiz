@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="#E9E9E9"
+   tools:context=".ScoreActivity">
+
+   <TextView
+      android:id="@+id/lbl_congrats"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/rtb_grade"
+      android:layout_centerHorizontal="true"
+      android:textAlignment="center"
+      android:textSize="24dp" />
+
+   <RatingBar
+      android:id="@+id/rtb_grade"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:numStars="5"
+      android:stepSize="0.5" />
+
+
+</RelativeLayout>

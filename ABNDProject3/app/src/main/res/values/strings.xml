@@ -1,0 +1,59 @@
+<resources>
+   <!-- Activities labels -->
+   <string name="app_name">Networking Quiz</string>
+   <string name="activity_title">Quiz - Your Grade</string>
+   <string name="str_question">Question</string>
+   <string name="str_1point">1 point</string>
+   <string name="str_2point">2 points</string>
+   <!-- Question 1 -->
+   <string name="str_text1">In what modes can you execute the command show mac-address-table? (Choose two answers.)</string>
+   <string name="str_answer1_opt1">User mode</string>
+   <string name="str_answer1_opt2">Global configuration mode</string>
+   <string name="str_answer1_opt3">Enable mode</string>
+   <string name="str_answer1_opt4">Setup mode</string>
+   <!-- Question 2 -->
+   <string name="str_text2">Write the dotted-decimal notation (DDN) equivalent of /21?</string>
+   <!-- Question 3 -->
+   <string name="str_text3">Which of the following does a router normally use when making a decision about routing TCP/IP packets?</string>
+   <string name="str_answer3_opt1">Destination MAC address</string>
+   <string name="str_answer3_opt2">Source MAC address</string>
+   <string name="str_answer3_opt3">Destination IP address</string>
+   <string name="str_answer3_opt4">Source IP address</string>
+   <!-- Question 4 -->
+   <string name="str_text4">Which of the following devices would be in the same broadcast domain as PC1? (Choose three answers.)</string>
+   <string name="str_answer4_opt1">PC4, which is separated from PC1 by an Ethernet switch</string>
+   <string name="str_answer4_opt2">PC2, which is separated from PC1 by an Ethernet hub</string>
+   <string name="str_answer4_opt3">PC3, which is separated from PC1 by a transparent bridge</string>
+   <string name="str_answer4_opt4">PC5, which is separated from PC1 by a router</string>
+   <!-- Question 5 -->
+   <string name="str_text5">How many broadcast domains can you find in the following network?</string>
+   <string name="str_answer5_opt1">Two</string>
+   <string name="str_answer5_opt2">Four</string>
+   <string name="str_answer5_opt3">Five</string>
+   <string name="str_answer5_opt4">One</string>
+   <!-- Question 6 -->
+   <string name="str_text6">Which of the following is a collision domain?</string>
+   <string name="str_answer6_opt1">All devices connected to an Ethernet hub</string>
+   <string name="str_answer6_opt2">All devices connected to an Ethernet switch</string>
+   <string name="str_answer6_opt3">Two PCs, with one cabled to a router Ethernet port with a crossover cable and the other PC cabled to another router Ethernet port with a crossover cable</string>
+   <string name="str_answer6_opt4">None of the other answers is correct</string>
+   <!-- Question 7 -->
+   <string name="str_text7">Which of the following protocols allows a client PC to discover the IP address of another computer based on that other computer’s name?</string>
+   <string name="str_answer7_opt1">ARP</string>
+   <string name="str_answer7_opt2">RARP</string>
+   <string name="str_answer7_opt3">DNS</string>
+   <string name="str_answer7_opt4">DHCP</string>
+   <!-- Question 8 -->
+   <string name="str_text8">Write one of the following worlds for each of network layer and Transport layer:</string>
+   <string name="str_text8_1" translatable="false">bits; UDP protocol; IP address; Segments; MAC address; Routing; Switching.</string>
+   <!-- [CHAR LIMIT=20] -->
+   <string name="str_answer8_opt1">Network layer:</string>
+   <!-- [CHAR LIMIT=20] -->
+   <string name="str_answer8_opt2">Transport layer:</string>
+   <string name="str_error1">Please, select one option in question</string>
+   <string name="str_error2">Please, select two options in question</string>
+   <string name="str_error3">Please, select three options in question</string>
+   <string name="str_error_text2">Please, write the dotted-decimal subnet mask in question</string>
+   <string name="str_error_text8">"Please, write one word to each layer in question</string>
+
+</resources>
